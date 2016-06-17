@@ -34,7 +34,7 @@ defmodule Thrift.Mixfile do
   end
 
   def application do
-     []
+     [applications: [:inets]]
   end
 
   defp deps do
