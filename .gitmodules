@@ -1,3 +1,4 @@
 [submodule "ext/thrift"]
 	path = ext/thrift
-	url = https://github.com/apache/thrift.git
+	url = https://github.com/binaryseed/thrift.git
+	branch = fix-erl-bool-compact
