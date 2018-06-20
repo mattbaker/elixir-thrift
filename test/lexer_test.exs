@@ -2,7 +2,7 @@ defmodule LexerTest do
   use ExUnit.Case
 
   defp tokenize(s) do
-    {:ok, value, _} = :thrift_lexer.string(String.to_char_list(s))
+    {:ok, value, _} = :thrift_lexer.string(String.to_charlist(s))
     value
   end
 
